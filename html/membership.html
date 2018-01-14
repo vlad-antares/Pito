@@ -1,0 +1,376 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Membership</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Bootstrap-->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!--Fontawesome-->
+	<link href="../css/font-awesome.css" rel="stylesheet">
+
+	<!--Reset-->
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+
+	<!--Jquery UI-->
+	<link rel="stylesheet" type="text/css" href="../css/jquery-ui.css">
+
+	<!--Select-->
+	<link rel="stylesheet" type="text/css" href="../css/select2.css">
+
+	<!--Quill editor-->
+	<link rel="stylesheet" type="text/css" href="../css/quill.snow.css">
+
+	<!--main file-->
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+
+	<!--Favicon-->
+	<link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-2 col-lg-2 logo">
+					<a href=""><img src="../img/logo.png" alt=""></a>
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-8 col-lg-8  header-nav">
+					<button class="open_menu fa fa-bars"></button>
+					<ul class="nav-ul">
+						<li>
+							<a href="">top stories</a>
+						</li>
+						<li>
+							<a href="">politics</a>
+						</li>
+						<li>
+							<a href="">Society</a>
+						</li>
+						<li>
+							<a href="">economy</a>
+						</li>
+						<li>
+							<a href="">Sports</a>
+						</li>
+						<li>
+							<a href="">regions</a>
+						</li>
+						<li>
+							<a href="">qfd</a>
+						</li>
+						<li>
+							<a href="">africa</a>
+						</li>
+						<li>
+							<a href="">world</a>
+						</li>
+						<li>
+							<div class="dropdown">
+							  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">more
+							  <span class="caret"></span></button>
+							  <ul class="dropdown-menu">
+							    <li><a href="#">More</a></li>
+							    <li><a href="#">More</a></li>
+							    <li><a href="#">More</a></li>
+							  </ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 user-panel">
+					<ul>
+						<li>
+							<a href="">fr</a>
+						</li>
+						<li class="active">
+							<a href="">en</a>
+						</li>
+					</ul>
+					<span class="account">
+						<i class="fa fa-user-circle-o" aria-hidden="true"></i>
+						<i class="fa fa-angle-down" aria-hidden="true"></i>
+					</span>
+					<div class="search">
+						<button class="open_search icon-magnifier"><i class="fa fa-search fa-2x" aria-hidden="true"></i></button>
+						<form id="search_form" class="search_form">
+		                  <label>
+		                    <input type="text" placeholder="">
+		                    <button class="icon-magnifier" type="submit"><i class="fa fa-search fa-2x" aria-hidden="true"></i></button>
+		                  </label>
+		              	</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+					<div class="content">
+						<div class="left-container">
+							<div class="membership-wrapper">
+								<a href="" class="memb"><i class="fa fa-angle-left" aria-hidden="true"></i>Members</a>
+								<ul>
+									<li>
+										<a href="">Frequently Asked Questions</a>
+									</li>
+									<li>
+										<a href="">Gift Memberships</a>
+									</li>
+									<li>
+										<a href="">Double Your Contribution</a>
+									</li>
+									<li>
+										<a href="">Sustaining Membership</a>
+									</li>
+									<li>
+										<a href="">Tax Information</a>
+									</li>
+									<li>
+										<a href="">Thank You, Members</a>
+									</li>
+								</ul>
+							</div>
+							<h4>popular<span>Posts</span></h4>
+							<div class="post-wrapper">
+								<div class="post-container">
+									<a href="">From granite to germs, St. Cloud economy grows more diverse</a>
+									<span><i class="fa fa-commenting-o" aria-hidden="true"></i>19 comments</span>
+								</div>
+								<div class="post-container">
+									<a href="">Bookstore on wheels turns heads in Baghdad</a>
+									<span><i class="fa fa-commenting-o" aria-hidden="true"></i>21 comments</span>
+								</div>
+								<div class="post-container">
+									<a href="">Ivanka Trump talks female entrepreneurs and her father at W20 Summit in Berlin</a>
+									<span><i class="fa fa-commenting-o" aria-hidden="true"></i>11 comments</span>
+								</div>
+								<div class="post-container">
+									<a href="">Eat, sleep, repeat: How kids' daily routines can help prevent obesity</a>
+									<span><i class="fa fa-commenting-o" aria-hidden="true"></i>32 comments</span>
+								</div>
+								<div class="post-container">
+									<a href="">Volkswagen to pay $2.8 billion in U.S. diesel emission scandal</a>
+									<span><i class="fa fa-commenting-o" aria-hidden="true"></i>28 comments</span>
+								</div>
+								<div class="post-container">
+									<a href=""><img src="../img/pab.png" alt=""><p>The pub named for a very popular monk<span class="sponsored">Sponsored</span></p></a>
+									<span><i class="fa fa-commenting-o" aria-hidden="true"></i>12 comments</span>
+								</div>
+							</div>
+							<div class="email-container">
+								<h4>Email<span>Newsletters</span></h4>
+								<p>The stories that matter, in your inbox</p>
+								<form action="">
+									<input type="text" placeholder="Your email address">
+									<button type="submit">sign up</button>
+								</form>
+							</div>
+							<div class="popular-section">
+								<h4>popular<span>section</span></h4>
+								<ul>
+									<li><a href="">Sports</a></li>
+									<li><a href="">Economie et Business</a></li>
+									<li><a href="">Technologie</a></li>
+									<li><a href="">Politique</a></li>
+									<li><a href="">Sociéte</a></li>
+									<li><a href="">Education</a></li>
+									<li><a href="">Santé</a></li>
+									<li><a href="">Culture</a></li>
+									<li><a href="">Les Informateurs</a></li>
+									<li><a href="">Chronique</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="right-container">
+							<div class="member-text">
+								<h1>Sustaining Memberships</h1>
+								<h4>Already a Sustainer Member?</h4>
+								<p>Thank you for supporting MPR! Your ongoing contribution keeps our services strong.</p>
+								<p>You can request your annual thank you gift by contacting Member & Audience Services at 800-228-7123 (Weekdays 9 a.m.-4:30 p.m. CT). Or you can request your 2017/18 Parks Pass by <a href="">filling out this form.</a></p>
+								<p>Member & Audience Services can also help you obtain a new Member card or pause or cancel your Sustaining Membership.</p>
+								<ul>
+									<li>
+										<a href="">Update your credit card information</a>
+									</li>
+									<li>
+										<a href="">Convert to giving through an automatic withdrawal from your checking account</a>
+									</li>
+									<li>
+										<a href="">Change your monthly donation amount</a>
+									</li>
+									<li>
+										<a href="">Make an additional gift</a>
+									</li>
+								</ul>
+								<h3>Become a Sustaining Member</h3>
+								<p>A Sustaining Membership is an unrestricted annual gift that you can pay in a convenient, ongoing way. Each month, we will charge your credit or debit card or withdrawal from your checking account the amount you specify. Your Sustaining Membership will automatically renew each year unless you choose to cancel or change it. You can increase, decrease or stop your donation at any time by calling us at 800-228-7123. Sustainers are crucial to providing an ongoing base of community support that we can rely on, so you can continue to rely on MPR.</p>
+								<p>Sustainers have access to:</p>
+								<p>A Sustainer Member Card, entitling you to discounts at restaurants, retail shops and to special arts and culture events around the region.
+								Be the first to know with special emails with early notice about upcoming MPR events and special member-only offers.
+								The satisfaction of knowing your contribution is going further – less paper, stamps and administrative costs means more of your contribution goes into the news and music you value.</p>
+								<a href="" class="become">Become a Sustaining Member today!</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+					<aside>
+						<h4>sponsored<span>publications</span></h4>
+						<div class="post-container">
+							<a href=""><img src="../img/worm.png" alt=""><p>A worm may hold the key to biodegrading plastic<span class="sponsored">Sponsored</span></p></a>
+							<span><i class="fa fa-commenting-o" aria-hidden="true"></i>32 comments</span>
+						</div>
+						<div class="post-container">
+							<a href=""><img src="../img/politician.png" alt=""><p>Minnesota's World's Fair bid looks brighter after Congress acts<span class="sponsored">Sponsored</span></p></a>
+							<span><i class="fa fa-commenting-o" aria-hidden="true"></i>24 comments</span>
+						</div>
+						<div class="news-tabs">
+						  <ul class="nav nav-tabs" role="tablist">
+						    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Most viewed</a></li>
+						    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Recommended</a></li>
+						  </ul>
+						  <div class="tab-content">
+						    <div role="tabpanel" class="tab-pane active" id="home">
+							    <div class="post-wrapper">
+									<div class="post-container">
+										<a href="">Ivanka Trump talks female entrepreneurs and her father at W20 Summit in Berlin</a>
+										<span><i class="fa fa-commenting-o" aria-hidden="true"></i>11 comments</span>
+									</div>
+									<div class="post-container">
+										<a href="">From granite to germs, St. Cloud economy grows more diverse</a>
+										<span><i class="fa fa-commenting-o" aria-hidden="true"></i>19 comments</span>
+									</div>
+									<div class="post-container">
+										<a href="">Eat, sleep, repeat: How kids' daily routines can help prevent obesity</a>
+										<span><i class="fa fa-commenting-o" aria-hidden="true"></i>32 comments</span>
+									</div>
+									<div class="post-container">
+										<a href="">Stephan Pastis casts 'Pearls' before everyone</a>
+										<span><i class="fa fa-commenting-o" aria-hidden="true"></i>28 comments</span>
+									</div>
+									<div class="post-container">
+										<a href="">NewsCut: Report says TV station ID'd tipster who later killed himself</a>
+										<span><i class="fa fa-commenting-o" aria-hidden="true"></i>11 comments</span>
+									</div>
+								</div>
+								<div class="link-container">
+									<a href="">more most viewed</a>
+								</div>
+							</div>
+						    <div role="tabpanel" class="tab-pane" id="profile">...</div>
+						  </div>
+						</div>
+					</aside>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+					<div class="about">
+						<h4>about<span>us</span></h4>
+						<ul>
+							<li>
+								<a href="">About Pito.News</a>
+							</li>
+							<li>
+								<a href="">Contact Us</a>
+							</li>
+							<li>
+								<a href="">Become a Member</a>
+							</li>
+							<li>
+								<a href="">Volunteer</a>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<a href="">Fundraising Credentials</a>
+							</li>
+							<li>
+								<a href="">Terms of use</a>
+							</li>
+							<li>
+								<a href="">Your privacy rights</a>
+							</li>
+							<li>
+								<a href="">Public Inspection Files</a>
+							</li>
+						</ul>
+					</div>
+				</div>	
+				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">	
+					<div class="follow">
+						<h4>follow<span>us</span></h4>
+						<ul>
+							<li>
+								<a href=""><i class="fa fa-facebook" aria-hidden="true"></i>Facebook</a>
+							</li>
+							<li>
+								<a href=""><i class="fa fa-twitter" aria-hidden="true"></i>Twitter</a>
+							</li>
+							<li>
+								<a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i>Youtube</a>
+							</li>
+							<li>
+								<a href=""><i class="fa fa-instagram" aria-hidden="true"></i>Instagram</a>
+							</li>
+						</ul>
+					</div>
+				</div>	
+				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">	
+					<div class="newsletter">
+						<h4>email<span>newsletters</span></h4>
+						<form action="">
+							<input type="text" placeholder="Your email address">
+							<button type="submit">sign up</button>
+						</form>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 logo">
+					<a href=""><img src="../img/logo.png" alt=""></a>
+					<p>© 2017 PITO.news. Pito Media, S.A. Tous droits reservés.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<!-- Scripts-->
+
+	<!--jQuery-->
+	<script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>
+
+	<!-- Map key-->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcoPU5bL4ZG-kNgZkAA7IqCynhq5nLCbs&signed_in=true&libraries=places&language=en"></script>
+
+	<!-- Map Files -->
+	<script type="text/javascript" src="../js/jquery.vmap.js"></script>
+
+	<script type="text/javascript" src="../js/jquery.vmap.world.js"></script>
+
+	<!--Bootstrap-->
+	<script src="../js/bootstrap.min.js"></script>
+
+	<!-- Sharer -->
+	<script type="text/javascript" src="../js/sharer.min.js"></script>
+	
+	<!-- Quill redactor-->
+	<script type="text/javascript" src="../js/quill.js"></script>
+
+	<!--Select-->
+	<script type="text/javascript" src="../js/select2.min.js"></script>
+	
+	<!--Jquery UI-->
+	<script type="text/javascript" src="../js/jquery-ui.js"></script>
+
+	<!--main file-->
+	<script type="text/javascript" src="../js/kochka.js"></script>
+</body>
+</html>
